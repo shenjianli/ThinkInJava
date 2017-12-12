@@ -10,6 +10,8 @@ package com.shen.think.innerclass;
  */
 public class InheritInner extends InnerClass.Destination{
 
+    String ss = "ss";
+
     /**
      * 构造函数需要传入  Destination 类的外部类实现，来构造继承的内部类
      * @param innerClass 继承内部类的外部类实例
