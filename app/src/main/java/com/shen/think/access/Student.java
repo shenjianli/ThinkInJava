@@ -9,7 +9,7 @@ public class Student extends Person {
 
     public void print(){
         /**
-         * 不同包下的继承类可以使用，用public protected声明变量
+         * 不同包下的继承类可以使用，用public protected声明的变量
          */
         name = "小申";
         age  = 28;
@@ -18,6 +18,10 @@ public class Student extends Person {
          * 2.编译不通过，因为Person中的sex为default修饰，只能在同包下使用
          */
         //sex = "男";
+        /**
+         * job为private不可访问
+         */
+        //job = "程序员";
         super.print();
     }
 
